@@ -2,9 +2,9 @@ import Component from '@ember/component';
 import layout from '../templates/components/images-drop-area';
 
 export default Component.extend({
-  layout,
+    layout,
 
-  classNameBindings: ['dragover', 'isEmpty'],
+    classNameBindings: ['dragover', 'isEmpty'],
     dragover: false,
     isEmpty: true,
 
@@ -42,10 +42,6 @@ export default Component.extend({
             e.preventDefault();
             const files = Array.prototype.slice.call(e.target.files);
             this.uploadImage(files);
-        },
-
-        removeImage(imageModel) {
-            this.removeImage(imageModel);
         },
     },
 });
