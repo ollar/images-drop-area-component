@@ -1,0 +1,1 @@
+export { default } from 'images-drop-area-component/components/images-drop-area';
