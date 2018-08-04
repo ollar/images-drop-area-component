@@ -3,7 +3,7 @@ import layout from '../templates/components/images-drop-area';
 
 export default Component.extend({
     layout,
-
+    classNames: ['images-drop-area'],
     classNameBindings: ['dragover', 'isEmpty'],
     dragover: false,
     isEmpty: true,
