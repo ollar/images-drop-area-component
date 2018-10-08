@@ -1,7 +1,7 @@
 images-drop-area-component
 ==============================================================================
 
-[Short description of the addon.]
+Images and filed dropping sensitive area
 
 Installation
 ------------------------------------------------------------------------------
@@ -14,8 +14,13 @@ ember install images-drop-area-component
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+```
+{{#images-drop-area uploadImage=(action 'uploadImage')}}
+    ...some html...
+{{/images-drop-area}}
+```
 
+'uploadImage' - action to evaluate on drop
 
 Contributing
 ------------------------------------------------------------------------------
