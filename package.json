@@ -5,7 +5,7 @@
   "keywords": [
     "ember-addon"
   ],
-  "repository": "github:ollar/images-drop-area-component.git",
+  "repository": "github:ollar/images-drop-area-component",
   "license": "MIT",
   "author": "ollar",
   "directories": {
